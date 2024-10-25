@@ -1,0 +1,119 @@
+body {
+  background-color: #2f53b3; 
+  font-family: Arial, sans-serif; 
+  color: #e180d8; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#container {
+  width: 90%;
+  max-width: 600px;
+  background-color: #333333;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+}
+
+h2:nth-of-type(1) a {
+  color: #34bf20; 
+}
+
+h2:nth-of-type(2) a {
+  color: #0080FF;
+}
+
+h2 a:hover {
+  color: #53cace;
+}
+
+
+.form-section {
+  margin-bottom: 30px;
+}
+
+.form-section h2 {
+  color: #ff6347; 
+  font-weight: 900;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.form-section p {
+  color: #cccccc;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.form-section p span {
+  font-size: 0.75em;
+  background-color: #ff6347;
+  padding: 2px 5px;
+  color: #ffffff; 
+  border-radius: 3px;
+  margin: 5px;
+  transition: background-color 0.3s ease; 
+}
+
+.form-section p span:hover {
+  background-color: #53cace; 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+select,
+option {
+  display: block;
+  width: calc(100% - 20px);
+  margin: 0 auto;
+  border: 0;
+  border-bottom: 2px solid #ff6347; 
+  background-color: #333333;
+  height: 45px;
+  line-height: 45px;
+  margin-bottom: 20px;
+  font-size: 1em;
+  color: #ffffff;
+  padding-left: 10px;
+  transition: border-bottom-color 0.3s ease;
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="number"]:hover,
+input[type="password"]:hover,
+select:hover,
+option:hover {
+  border-bottom-color: #53cace;
+}
+
+input[type="submit"] {
+  width: calc(100% - 20px);
+  border: 0;
+  background-color: #ff6347;
+  border-radius: 5px;
+  height: 50px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #53cace; 
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+select:focus,
+option:focus {
+  outline: none;
+  border-bottom-color: #53cace; 
+}
